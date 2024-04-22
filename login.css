@@ -1,0 +1,16 @@
+body {
+  font: 14px sans-serif;
+  color: #000;
+  background: url(images/background.jpg);
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+}
+.wrapper {
+  justify-content: center;
+  margin-top: 100px;
+  width: 360px;
+  padding: 30px;
+  background: white;
+  z-index: 1;
+}

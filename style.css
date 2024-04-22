@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.row {
+  overflow: hidden;
+}
+#about {
+  background: url(images/pexels-polina-tankilevitch-4110255.jpg);
+  width: 100%;
+  color: black;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 50px;
+  margin: 30px 0;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.navbar img {
+  width: 125px;
+}
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  color: azure;
+}
+.navbar a {
+  color: rgb(120, 124, 124);
+  font-weight: bolder;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  padding: 5px;
+}
+nav ul li:hover {
+  transform: translateX(-5px);
+  background-color: #e4ff94;
+}
+
+a {
+  text-decoration: none;
+  color: green;
+}
+
+p {
+  color: rgb(23, 24, 24);
+}
+
+/* .container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+} */
+.row {
+  text-align: left;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.col h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+.col img {
+  margin-left: 40px;
+  padding: 10px;
+  align-items: center;
+}
+.btn {
+  display: inline-block;
+  background-color: rgb(160, 250, 160);
+  color: rgb(18, 19, 18);
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+.btn:hover {
+  background: rgb(225, 250, 116);
+}
+.header {
+  background-color: honeydew;
+}
+.header .row {
+  margin-top: 70px;
+}
+.catogories {
+  margin: 70px 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 80px;
+  position: relative;
+  color: rgb(120, 124, 124);
+  padding: 10px 20px;
+  background: lightgreen;
+  line-height: 50px;
+}
+.tit {
+  padding: 50px;
+}
+h4 {
+  color: rgb(10, 10, 10);
+  font: caption;
+  text-align: center;
+}
+.column p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.column img {
+  transform: translateX(-5px);
+}
+
+.featured {
+  background-color: honeydew;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.featured-img {
+  width: 80%;
+  padding-left: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.text {
+  flex: auto;
+  text-align: left;
+}
+.brands {
+  margin: 50px auto;
+}
+
+.col-5 {
+  float: left;
+  width: 220px;
+  height: 150px;
+  padding: 15px;
+  background-color: #bddbcf;
+}
+.col-5 img {
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(50%);
+  padding: 20px;
+}
+.row-1 {
+  padding-left: 220px;
+  width: 100%;
+}
+.col-5 img:hover {
+  transform: translateX(10px);
+  filter: grayscale(0);
+}
+.services {
+  padding: 50px 0;
+}
+.services h3 {
+  padding-top: 40px;
+  font-size: 100px;
+}
+.footer {
+  width: 100%;
+  background: lightgreen;
+  color: white;
+  float: left;
+  padding: 30px 0;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.header .row {
+  margin-top: 0px;
+}
+.card{
+  box-shadow: 1px 1px 11px 1px wheat;
+  width:200px;
+}
+a{
+  text-align: center;
+}
+.box{
+  padding: 5px;
+  background-color: yellow;
+}
+
+/* responsive */
+@media screen and (max-width: 600px) {
+  #about {
+    background-size: 100% 100%;
+  }
+  .services h3 {
+    font-size: 50px;
+  }
+  .services h2 {
+    font-size: 20px;
+  }
+  .navbar img {
+    width: 100px;
+  }
+}
